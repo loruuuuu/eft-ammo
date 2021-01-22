@@ -1,1 +1,1483 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>tabelka</title>
+	<style>
+		#gora{ background-color: #9B1215;
+			position: fixed;
+			top:0px;
+			width:62%;
+			height: 40px;}
+		#wprawo{
+			position:relative;
+			right:-50px;                       
+		}
+		.bardz{
+			position: relative;
+			right: -80px;
+		}
+		#lek{
+			position: relative;
+			right: -20px;
+		}
 
+	</style>
+</head>
+
+<body>
+
+
+<table align="center" border="0" cellpadding="0" cellspacing="0" style="max-width:900px;width:100%;" width="832">
+	<tbody>
+		<tr height="19" id="gora">
+			<td height="19" style="text-align: center; width: 28%;"><strong>Ammunition Type</strong></td>
+			<td style="text-align: center; width: 12%;"><strong>Penetration Power</strong></td>
+			<td style="text-align: center; width: 12%;"><strong>Damage Value</strong></td>
+			<td style="text-align: center; width: 12%;"><strong>Armor Damage Ratio %</strong></td>
+			<td style="text-align: center; width: 12%;"><strong>Projectile Speed (m/s)</strong></td>
+			<td style="text-align: center; width: 12%;"><strong>Fragment.<br />
+			Chance</strong></td>
+			<td style="text-align: center; width: 12%;"><strong>Ricochet Chance</strong></td>
+		</tr></br></br>
+		<tr height="19">
+			<td height="19" style="background-color: rgb(0, 204, 255);"><em><strong>4.6x30mm AP SX</strong></em></td>
+			<td align="right">53</td>
+			<td align="right">35</td>
+			<td align="right" id="wprawo">46</td>
+			<td align="right" id="wprawo">680</td>
+			<td align="right">0.1</td>
+			<td align="right">0.6</td>
+		</tr>
+		<tr height="19">
+			<td height="19" style="background-color: rgb(0, 204, 255);"><em><strong>4.6x30mm FMJ SX</strong></em></td>
+			<td align="right">40</td>
+			<td align="right">43</td>
+			<td align="right" id="wprawo">41</td>
+			<td align="right" id="wprawo">620</td>
+			<td align="right">0.2</td>
+			<td align="right">0.4</td>
+		</tr>
+		<tr height="19">
+			<td height="19" style="background-color: rgb(0, 204, 255);"><em><strong>4.6x30mm Subsonic SX</strong></em></td>
+			<td align="right">36</td>
+			<td align="right">45</td>
+			<td align="right" id="wprawo">46</td>
+			<td align="right" id="wprawo">290</td>
+			<td align="right">0.2</td>
+			<td align="right">0.5</td>
+		</tr>
+		<tr height="19">
+			<td height="19" style="background-color: rgb(0, 204, 255);"><em><strong>4.6x30mm Action SX</strong></em></td>
+			<td align="right">18</td>
+			<td align="right">65</td>
+			<td align="right" id="wprawo">39</td>
+			<td align="right" id="wprawo">690</td>
+			<td align="right">0.5</td>
+			<td align="right">0.3</td>
+		</tr>
+		<tr>
+			<td height="19" style="background-color: rgb(0, 204, 255);"><strong>Compatible With</strong></td>
+			<td colspan="6" rowspan="1" style="text-align: center;">SMG:&nbsp;<strong>MP7A1</strong>, <strong>MP7A2</strong></td>
+		</tr>
+		<tr>
+			<td height="19" style="background-color: rgb(0, 153, 255);"><em><strong>.366 TKM </strong></em><em><strong>AP</strong></em></td>
+			<td align="right">42</td>
+			<td align="right">90</td>
+			<td align="right" id="wprawo">60</td>
+			<td align="right" id="wprawo">602</td>
+			<td align="right">0.01</td>
+			<td align="right">0.065</td>
+		</tr>
+		<tr height="19">
+			<td height="19" style="background-color: rgb(0, 153, 255);"><em><strong>.366 TKM EKO</strong></em></td>
+			<td align="right">30</td>
+			<td align="right">73</td>
+			<td align="right" id="wprawo">40</td>
+			<td align="right" id="wprawo">770</td>
+			<td align="right">0.2</td>
+			<td align="right">0.1</td>
+		</tr>
+		<tr height="19">
+			<td height="19" style="background-color: rgb(0, 153, 255);"><em><strong>.366 TKM FMJ</strong></em></td>
+			<td align="right">23</td>
+			<td align="right">98</td>
+			<td align="right" id="wprawo">48</td>
+			<td align="right" id="wprawo">580</td>
+			<td align="right">0.25</td>
+			<td align="right">0.065</td>
+		</tr>
+		<tr height="19">
+			<td height="19" style="background-color: rgb(0, 153, 255);"><em><strong>.366 TKM Geksa</strong></em></td>
+			<td align="right">14</td>
+			<td align="right">110</td>
+			<td align="right" id="wprawo">38</td>
+			<td align="right" id="wprawo">550</td>
+			<td align="right">0.45</td>
+			<td align="right">0.05</td>
+		</tr>
+		<tr>
+			<td height="19" style="background-color: rgb(0, 153, 255);"><strong>Compatible With</strong></td>
+			<td colspan="6" rowspan="1" style="text-align: center;">
+			<p>Assault Rifle:<strong> Vepr AKM/VPO-209</strong><br />
+			Sniper Rifle: <strong>VPO-215</strong></p>
+			</td>
+		</tr>
+		<tr>
+			<td height="19" style="background-color: rgb(204, 102, 153);"><em><strong>.45 ACP AP</strong></em></td>
+			<td align="right">36</td>
+			<td style="text-align: right;">70</td>
+			<td align="right" id="wprawo">43</td>
+			<td align="right" id="wprawo">299</td>
+			<td align="right">0.01</td>
+			<td align="right">0.1</td>
+		</tr>
+		<tr>
+			<td height="19" style="background-color: rgb(204, 102, 153);"><em><strong>.45 ACP FMJ</strong></em></td>
+			<td align="right">19</td>
+			<td style="text-align: right;">72</td>
+			<td align="right" id="wprawo">36</td>
+			<td align="right" id="wprawo">285</td>
+			<td align="right">0.01</td>
+			<td align="right">0.065</td>
+		</tr>
+		<tr>
+			<td height="19" style="background-color: rgb(204, 102, 153);"><em><strong>.45 ACP Lasermatch FMJ</strong></em></td>
+			<td align="right">18</td>
+			<td style="text-align: right;">74</td>
+			<td align="right" id="wprawo">37</td>
+			<td align="right" id="wprawo">290</td>
+			<td align="right">0.01</td>
+			<td align="right">0.065</td>
+		</tr>
+		<tr>
+			<td height="19" style="background-color: rgb(204, 102, 153);"><em><strong>.45 ACP Hydra-Shock</strong></em></td>
+			<td align="right">13</td>
+			<td style="text-align: right;">95</td>
+			<td align="right" id="wprawo">30</td>
+			<td align="right" id="wprawo">274</td>
+			<td align="right">0.5</td>
+			<td align="right">0.066</td>
+		</tr>
+		<tr>
+			<td height="19" style="background-color: rgb(204, 102, 153);"><em><strong>.45 RIP</strong></em></td>
+			<td align="right">3</td>
+			<td style="text-align: right;">127</td>
+			<td align="right" id="wprawo">12</td>
+			<td align="right" id="wprawo">293</td>
+			<td align="right">1</td>
+			<td align="right">0.002</td>
+		</tr>
+		<tr>
+			<td height="19" style="background-color: rgb(204, 102, 153);"><strong>Compatible With</strong></td>
+			<td colspan="6" rowspan="1" style="text-align: center;">Pistol: <strong>M1911A1</strong></td>
+		</tr>
+		<tr height="19">
+			<td height="19" style="background-color: rgb(255, 102, 0);"><em><strong>12x70 AP-20 Slug</strong></em></td>
+			<td align="right">37</td>
+			<td style="text-align: right;">164</td>
+			<td align="right" id="wprawo">65</td>
+			<td align="right" id="wprawo">510</td>
+			<td align="right">0.03</td>
+			<td align="right">0.1</td>
+		</tr>
+		<tr>
+			<td height="19" style="background-color: rgb(255, 102, 0);"><em><strong>12x70mm Flechette</strong></em></td>
+			<td align="right">31</td>
+			<td style="text-align: right;">25&times;8</td>
+			<td align="right" id="wprawo">26</td>
+			<td align="right" id="wprawo">320</td>
+			<td align="right">0</td>
+			<td align="right">0</td>
+		</tr>
+		<tr>
+			<td height="19" style="background-color: rgb(255, 102, 0);"><em><strong>12x70mm Shell with .50 BMG</strong></em></td>
+			<td align="right">26</td>
+			<td style="text-align: right;">197</td>
+			<td align="right" id="wprawo">57</td>
+			<td align="right" id="wprawo">410</td>
+			<td align="right">0.05</td>
+			<td align="right">0.1</td>
+		</tr>
+		<tr>
+			<td height="19" style="background-color: rgb(255, 102, 0);"><em><strong>12x70mm FTX Custom Llte Slug</strong></em></td>
+			<td align="right">20</td>
+			<td style="text-align: right;">183</td>
+			<td align="right" id="wprawo">50</td>
+			<td align="right" id="wprawo">480</td>
+			<td align="right">0.1</td>
+			<td align="right">0.1</td>
+		</tr>
+		<tr>
+			<td height="19" style="background-color: rgb(255, 102, 0);"><em><strong>12x70mm &quot;Poleva-6u&quot; Slug</strong></em></td>
+			<td align="right">20</td>
+			<td style="text-align: right;">150</td>
+			<td align="right" id="wprawo">50</td>
+			<td align="right" id="wprawo">430</td>
+			<td align="right">0.15</td>
+			<td align="right">0.1</td>
+		</tr>
+		<tr height="19">
+			<td height="19" style="background-color: rgb(255, 102, 0);"><em><strong>12x70mm Dual Sabot Slug</strong></em></td>
+			<td align="right">17</td>
+			<td align="right">85&times;2</td>
+			<td align="right" id="wprawo">65</td>
+			<td align="right" id="wprawo">415</td>
+			<td align="right">0.1</td>
+			<td align="right">0.1</td>
+		</tr>
+		<tr height="19">
+			<td height="19" style="background-color: rgb(255, 102, 0);"><em><strong>12x70mm &quot;Poleva-3&quot; Slug</strong></em></td>
+			<td align="right">17</td>
+			<td align="right">140</td>
+			<td align="right" id="wprawo">40</td>
+			<td align="right" id="wprawo">410</td>
+			<td align="right">0.2</td>
+			<td align="right">0.1</td>
+		</tr>
+		<tr>
+			<td height="19" style="background-color: rgb(255, 102, 0);"><em><strong>12x70mm Led Slug</strong></em></td>
+			<td align="right">15</td>
+			<td align="right">167</td>
+			<td align="right" id="wprawo">45</td>
+			<td align="right" id="wprawo">370</td>
+			<td align="right">0.2</td>
+			<td align="right">0.1</td>
+		</tr>
+		<tr>
+			<td height="19" style="background-color: rgb(255, 102, 0);"><em><strong>12x70 HP Slug Copper Sabot Premier</strong></em></td>
+			<td align="right">14</td>
+			<td align="right">206</td>
+			<td align="right" id="wprawo">46</td>
+			<td align="right" id="wprawo">442</td>
+			<td align="right">0.38</td>
+			<td align="right">0.1</td>
+		</tr>
+		<tr>
+			<td height="19" style="background-color: rgb(255, 102, 0);"><em><strong>12x70mm Grizzly 40 Slug</strong></em></td>
+			<td align="right">12</td>
+			<td align="right">190</td>
+			<td align="right" id="wprawo">48</td>
+			<td align="right" id="wprawo">390</td>
+			<td align="right">0.12</td>
+			<td align="right">0.1</td>
+		</tr>
+		<tr>
+			<td height="19" style="background-color: rgb(255, 102, 0);"><em><strong>12x70 7mm Buckshot</strong></em></td>
+			<td align="right">3</td>
+			<td align="right">39&times;8</td>
+			<td align="right" id="wprawo">26</td>
+			<td align="right" id="wprawo">415</td>
+			<td align="right">0</td>
+			<td align="right">0</td>
+		</tr>
+		<tr>
+			<td height="19" style="background-color: rgb(255, 102, 0);"><em><strong>12x70 6.5mm &quot;Express&quot;</strong></em></td>
+			<td align="right">3</td>
+			<td align="right">35&times;9</td>
+			<td align="right" id="wprawo">26</td>
+			<td align="right" id="wprawo">430</td>
+			<td align="right">0</td>
+			<td align="right">0</td>
+		</tr>
+		<tr>
+			<td height="19" style="background-color: rgb(255, 102, 0);"><em><strong>12x70mm HP Slug &quot;SFormance&quot;</strong></em></td>
+			<td align="right">2</td>
+			<td align="right">220</td>
+			<td align="right" id="wprawo">12</td>
+			<td align="right" id="wprawo">594</td>
+			<td align="right">0.39</td>
+			<td align="right">0.1</td>
+		</tr>
+		<tr>
+			<td height="19" style="background-color: rgb(255, 102, 0);"><em><strong>12x70 &quot;Magnum&quot;</strong></em></td>
+			<td align="right">2</td>
+			<td align="right">50&times;8</td>
+			<td align="right" id="wprawo">26</td>
+			<td align="right" id="wprawo">385</td>
+			<td align="right">0</td>
+			<td align="right">0</td>
+		</tr>
+		<tr>
+			<td height="19" style="background-color: rgb(255, 102, 0);"><em><strong>12x70 5.25mm Buckshot</strong></em></td>
+			<td align="right">1</td>
+			<td align="right">37&times;8</td>
+			<td align="right" id="wprawo">15</td>
+			<td align="right" id="wprawo">320</td>
+			<td align="right">0</td>
+			<td align="right">0</td>
+		</tr>
+		<tr>
+			<td height="19" style="background-color: rgb(255, 102, 0);"><em><strong>12x70mm RIP</strong></em></td>
+			<td align="right">0</td>
+			<td align="right">265</td>
+			<td align="right" id="wprawo">11</td>
+			<td align="right" id="wprawo">410</td>
+			<td align="right">1</td>
+			<td align="right">0.01</td>
+		</tr>
+		<tr>
+			<td height="19" style="background-color: rgb(255, 102, 0);"><strong>Compatible With</strong></td>
+			<td colspan="6" rowspan="1" style="text-align: center;">Shotgun:&nbsp;<strong>Saiga-12</strong>, <strong>MP-133</strong>, <strong>MP-153</strong>, <strong>M870, 590A1</strong></td>
+		</tr>
+		<tr>
+			<td height="19" style="background-color: rgb(255, 153, 0);"><em><strong>20x70mm &quot;Poleva-6u&quot; Slug</strong></em></td>
+			<td align="right">17</td>
+			<td style="text-align: right;">135</td>
+			<td align="right" id="wprawo">40</td>
+			<td align="right" id="wprawo">445</td>
+			<td align="right">0.15</td>
+			<td align="right">0.1</td>
+		</tr>
+		<tr height="19">
+			<td height="19" style="background-color: rgb(255, 153, 0);"><em><strong>20x70mm Star Rlug&nbsp;</strong></em></td>
+			<td align="right">16</td>
+			<td style="text-align: right;">154</td>
+			<td align="right" id="wprawo">42</td>
+			<td align="right" id="wprawo">415</td>
+			<td align="right">0.1</td>
+			<td align="right">0.1</td>
+		</tr>
+		<tr>
+			<td height="19" style="background-color: rgb(255, 153, 0);"><em><strong>20x70mm &quot;Poleva-3&quot; Slug&nbsp;</strong></em></td>
+			<td align="right">14</td>
+			<td style="text-align: right;">120</td>
+			<td align="right" id="wprawo">35</td>
+			<td align="right" id="wprawo">425</td>
+			<td align="right">0.2</td>
+			<td align="right">0.1</td>
+		</tr>
+		<tr>
+			<td height="19" style="background-color: rgb(255, 153, 0);"><em><strong>20x70mm Devastator Slug</strong></em></td>
+			<td align="right">5</td>
+			<td style="text-align: right;">198</td>
+			<td align="right" id="wprawo">13</td>
+			<td align="right" id="wprawo">405</td>
+			<td align="right">1</td>
+			<td align="right">0.1</td>
+		</tr>
+		<tr>
+			<td height="19" style="background-color: rgb(255, 153, 0);"><em><strong>20x70 7.5mm Buckshot</strong></em></td>
+			<td align="right">3</td>
+			<td style="text-align: right;">25&times;8</td>
+			<td align="right" id="wprawo">14</td>
+			<td align="right" id="wprawo">430</td>
+			<td align="right">0</td>
+			<td align="right">0</td>
+		</tr>
+		<tr>
+			<td height="19" style="background-color: rgb(255, 153, 0);"><em><strong>20x70 7.3mm Buckshot</strong></em></td>
+			<td align="right">3</td>
+			<td style="text-align: right;">23&times;9</td>
+			<td align="right" id="wprawo">13</td>
+			<td align="right" id="wprawo">475</td>
+			<td align="right">0</td>
+			<td align="right">0</td>
+		</tr>
+		<tr>
+			<td height="19" style="background-color: rgb(255, 153, 0);"><em><strong>20x70 6.2mm Buckshot</strong></em></td>
+			<td align="right">2</td>
+			<td style="text-align: right;">22&times;8</td>
+			<td align="right" id="wprawo">13</td>
+			<td align="right" id="wprawo">410</td>
+			<td align="right">0</td>
+			<td align="right">0</td>
+		</tr>
+		<tr>
+			<td height="19" style="background-color: rgb(255, 153, 0);"><em><strong>20x70 5.6mm Buckshot</strong></em></td>
+			<td align="right">1</td>
+			<td style="text-align: right;">26&times;8</td>
+			<td align="right" id="wprawo">12</td>
+			<td align="right" id="wprawo">340</td>
+			<td align="right">0</td>
+			<td align="right">0</td>
+		</tr>
+		<tr>
+			<td height="19" style="background-color: rgb(255, 153, 0);"><strong>Compatible With</strong></td>
+			<td colspan="6" rowspan="1" style="text-align: center;">Shotgun:&nbsp;<strong>TOZ-106</strong></td>
+		</tr>
+		<tr height="19">
+			<td height="19" style="background-color: rgb(255, 255, 0);"><em><strong>9x39mm 7N12 BP</strong></em></td>
+			<td align="right">48</td>
+			<td align="right">60</td>
+			<td align="right" id="wprawo">68</td>
+			<td align="right" id="wprawo">295</td>
+			<td align="right">0.1</td>
+			<td align="right">0.5</td>
+		</tr>
+		<tr height="19">
+			<td height="19" style="background-color: rgb(255, 255, 0);"><em><strong>9x39mm 7N9 SPP</strong></em></td>
+			<td align="right">45</td>
+			<td align="right">64</td>
+			<td align="right" id="wprawo">56</td>
+			<td align="right" id="wprawo">310</td>
+			<td align="right">0.2</td>
+			<td align="right">0.4</td>
+		</tr>
+		<tr height="19">
+			<td height="19" style="background-color: rgb(255, 255, 0);"><em><strong>9x39mm SP-6</strong></em></td>
+			<td align="right">43</td>
+			<td align="right">58</td>
+			<td align="right" id="wprawo">60</td>
+			<td align="right" id="wprawo">305</td>
+			<td align="right">0.1</td>
+			<td align="right">0.5</td>
+		</tr>
+		<tr height="19">
+			<td height="19" style="background-color: rgb(255, 255, 0);"><em><strong>9x39mm SP-5</strong></em></td>
+			<td align="right">35</td>
+			<td align="right">68</td>
+			<td align="right" id="wprawo">52</td>
+			<td align="right" id="wprawo">290</td>
+			<td align="right">0.2</td>
+			<td align="right">0.4</td>
+		</tr>
+		<tr>
+			<td height="19" style="background-color: rgb(255, 255, 0);"><strong>Compatible With</strong></td>
+			<td colspan="6" rowspan="1" style="text-align: center;">Designated Marksman Rifle (DMR):&nbsp;<strong>VSS Vintorez</strong><br />
+			Assault Carbine:<strong> AS VAL</strong></td>
+		</tr>
+		<tr>
+			<td height="19" style="background-color: rgb(255, 51, 0);"><em><strong>9x21mm SP13</strong></em></td>
+			<td align="right">39</td>
+			<td align="right">63</td>
+			<td align="right" id="wprawo">47</td>
+			<td align="right" id="wprawo">397</td>
+			<td align="right">0.2</td>
+			<td align="right">0.4</td>
+		</tr>
+		<tr height="19">
+			<td height="19" style="background-color: rgb(255, 51, 0);"><em><strong>9x21mm SP10</strong></em></td>
+			<td align="right">35</td>
+			<td align="right">49</td>
+			<td align="right" id="wprawo">46</td>
+			<td align="right" id="wprawo">410</td>
+			<td align="right">0.2</td>
+			<td align="right">0.4</td>
+		</tr>
+		<tr height="19">
+			<td height="19" style="background-color: rgb(255, 51, 0);"><em><strong>9x21mm SP11</strong></em></td>
+			<td align="right">18</td>
+			<td align="right">65</td>
+			<td align="right" id="wprawo">44</td>
+			<td align="right" id="wprawo">413</td>
+			<td align="right">0.3</td>
+			<td align="right">0.2</td>
+		</tr>
+		<tr height="19">
+			<td height="19" style="background-color: rgb(255, 51, 0);"><em><strong>9x21mm SP12</strong></em></td>
+			<td align="right">15</td>
+			<td align="right">80</td>
+			<td align="right" id="wprawo">63</td>
+			<td align="right" id="wprawo"> 415</td>
+			<td align="right" >0.35</td>
+			<td align="right">0.2</td>
+		</tr>
+		<tr>
+			<td height="19" style="background-color: rgb(255, 51, 0);"><strong>Compatible With</strong></td>
+			<td colspan="6" rowspan="1" style="text-align: center;">Pistol:&nbsp;<strong>SR-1MP Gyurza</strong></td>
+		</tr>
+		<tr>
+			<td height="19" style="background-color: rgb(255, 204, 102);"><em><strong>9x19mm 7N31</strong></em></td>
+			<td align="right">39</td>
+			<td align="right">52</td>
+			<td align="right" id="wprawo">53</td>
+			<td align="right" id="wprawo">560</td>
+			<td align="right">0.05</td>
+			<td align="right">0.2</td>
+		</tr>
+		<tr>
+			<td height="19" style="background-color: rgb(255, 204, 102);"><em><strong>9x19mm AP 6.3</strong></em></td>
+			<td align="right">30</td>
+			<td align="right">52</td>
+			<td align="right" id="wprawo">48</td>
+			<td align="right" id="wprawo">392</td>
+			<td align="right">0.05</td>
+			<td align="right">0.2</td>
+		</tr>
+		<tr height="19">
+			<td height="19" style="background-color: rgb(255, 204, 102);"><em><strong>9x19mm Pst gzh</strong></em></td>
+			<td align="right">20</td>
+			<td align="right">54</td>
+			<td align="right" id="wprawo">33</td>
+			<td align="right" id="wprawo">457</td>
+			<td align="right">0.15</td>
+			<td align="right">0.05</td>
+		</tr>
+		<tr height="19">
+			<td height="19" style="background-color: rgb(255, 204, 102);"><em><strong>9x19mm Green Tracer</strong></em></td>
+			<td align="right">14</td>
+			<td align="right">58</td>
+			<td align="right" id="wprawo">33</td>
+			<td align="right" id="wprawo">365</td>
+			<td align="right">0.15</td>
+			<td align="right">0.05</td>
+		</tr>
+		<tr height="19">
+			<td height="19" style="background-color: rgb(255, 204, 102);"><em><strong>9x19mm Luger CCI</strong></em></td>
+			<td align="right">10</td>
+			<td align="right">70</td>
+			<td align="right" id="wprawo">38</td>
+			<td align="right" id="wprawo">420</td>
+			<td align="right">0.25</td>
+			<td align="right">0.065</td>
+		</tr>
+		<tr height="19">
+			<td height="19" style="background-color: rgb(255, 204, 102);"><em><strong>9x19mm PSO gzh</strong></em></td>
+			<td align="right">10</td>
+			<td align="right">59</td>
+			<td align="right" id="wprawo">32</td>
+			<td align="right" id="wprawo">340</td>
+			<td align="right">0.25</td>
+			<td align="right">0.065</td>
+		</tr>
+		<tr>
+			<td height="19" style="background-color: rgb(255, 204, 102);"><em><strong>9x19mm QuakeMaker</strong></em></td>
+			<td align="right">8</td>
+			<td align="right">85</td>
+			<td align="right" id="wprawo">22</td>
+			<td align="right" id="wprawo">290</td>
+			<td align="right">0.1</td>
+			<td align="right">0.1</td>
+		</tr>
+		<tr height="19">
+			<td height="19" style="background-color: rgb(255, 204, 102);"><em><strong>9x19mm RIP</strong></em></td>
+			<td align="right">2</td>
+			<td align="right">102</td>
+			<td align="right" id="wprawo">11</td>
+			<td align="right" id="wprawo">381</td>
+			<td align="right">1</td>
+			<td align="right">0.002</td>
+		</tr>
+		<tr>
+			<td height="19" style="background-color: rgb(255, 204, 102);"><strong>Compatible With</strong></td>
+			<td colspan="6" rowspan="1" style="text-align: center;">SMG: <strong>Saiga-9</strong>, <strong>PP-19-01</strong>&nbsp;<strong>Vityaz-SN</strong>, <strong>PP-19-01</strong>, <strong>MPX</strong>, <strong>MP5, MP5K-N, MP9, MP9-N</strong><br />
+			Pistol:<strong> P226R</strong>, <strong>MP-443 &quot;Grach&quot;</strong>, <strong>Glock 18C</strong>, <strong>Glock 17</strong></td>
+		</tr>
+		<tr height="19">
+			<td height="19" style="background-color: rgb(204, 204, 0);"><em><strong>9x18mm PM PBM</strong></em></td>
+			<td align="right">28</td>
+			<td align="right">40</td>
+			<td align="right" id="wprawo">30</td>
+			<td align="right" id="wprawo">519</td>
+			<td align="right">0.16</td>
+			<td align="right">0.09</td>
+		</tr>
+		<tr height="19">
+			<td height="19" style="background-color: rgb(204, 204, 0);"><em><strong>9x18mm PM PMM</strong></em></td>
+			<td align="right">24</td>
+			<td align="right">58</td>
+			<td align="right" id="wprawo">33</td>
+			<td align="right" id="wprawo">420</td>
+			<td align="right">0.17</td>
+			<td align="right">0.095</td>
+		</tr>
+		<tr>
+			<td height="19" style="background-color: rgb(204, 204, 0);"><em><strong>9x18mm PM 9 BZT gzh</strong></em></td>
+			<td align="right">18</td>
+			<td align="right">53</td>
+			<td align="right" id="wprawo">28</td>
+			<td align="right" id="wprawo">325</td>
+			<td align="right">0.17</td>
+			<td align="right">0.095</td>
+		</tr>
+		<tr height="19">
+			<td height="19" style="background-color: rgb(204, 204, 0);"><em><strong>9x18mm PM RG028 gzh</strong></em></td>
+			<td align="right">13</td>
+			<td align="right">65</td>
+			<td align="right" id="wprawo">26</td>
+			<td align="right" id="wprawo">330</td>
+			<td align="right">0.02</td>
+			<td align="right">0.05</td>
+		</tr>
+		<tr>
+			<td height="19" style="background-color: rgb(204, 204, 0);"><em><strong>9x18mm PM </strong></em>&nbsp;<em><strong>Pst gzh</strong></em></td>
+			<td align="right">12</td>
+			<td align="right">50</td>
+			<td align="right" id="wprawo">26</td>
+			<td align="right" id="wprawo">298</td>
+			<td align="right">0.2</td>
+			<td align="right">0.1</td>
+		</tr>
+		<tr height="19">
+			<td height="19" style="background-color: rgb(204, 204, 0);"><em><strong>9x18mm PM PPT gzh</strong></em></td>
+			<td align="right">8</td>
+			<td align="right">59</td>
+			<td align="right" id="wprawo">22</td>
+			<td align="right" id="wprawo">301</td>
+			<td align="right">0.166</td>
+			<td align="right">0.1</td>
+		</tr>
+		<tr>
+			<td height="19" style="background-color: rgb(204, 204, 0);"><em><strong>9x18mm PM PPe gzh</strong></em></td>
+			<td align="right">7</td>
+			<td align="right">61</td>
+			<td align="right" id="wprawo">15</td>
+			<td align="right" id="wprawo">297</td>
+			<td align="right">0.35</td>
+			<td align="right">0.05</td>
+		</tr>
+		<tr height="19">
+			<td height="19" style="background-color: rgb(204, 204, 0);"><em><strong>9x18mm PM PRS gs</strong></em></td>
+			<td align="right">6</td>
+			<td align="right">58</td>
+			<td align="right" id="wprawo">16</td>
+			<td align="right" id="wprawo">302</td>
+			<td align="right">0.3</td>
+			<td align="right">0.01</td>
+		</tr>
+		<tr>
+			<td height="19" style="background-color: rgb(204, 204, 0);"><em><strong>9x18mm PM PS gs PPO</strong></em></td>
+			<td align="right">6</td>
+			<td align="right">55</td>
+			<td align="right" id="wprawo">16</td>
+			<td align="right" id="wprawo">330</td>
+			<td align="right">0.25</td>
+			<td align="right">0.065</td>
+		</tr>
+		<tr height="19">
+			<td height="19" style="background-color: rgb(204, 204, 0);"><em><strong>9x18mm PM PSO gzh</strong></em></td>
+			<td align="right">5</td>
+			<td align="right">54</td>
+			<td align="right" id="wprawo">13</td>
+			<td align="right" id="wprawo">315</td>
+			<td align="right">0.35</td>
+			<td align="right">0.065</td>
+		</tr>
+		<tr>
+			<td height="19" style="background-color: rgb(204, 204, 0);"><em><strong>9x18mm PM 9 P gzh</strong></em></td>
+			<td align="right">5</td>
+			<td align="right">50</td>
+			<td align="right" id="wprawo">16</td>
+			<td align="right" id="wprawo">302</td>
+			<td align="right">0.25</td>
+			<td align="right">0.065</td>
+		</tr>
+		<tr height="19">
+			<td height="19" style="background-color: rgb(204, 204, 0);"><em><strong>9x18mm PM PSV</strong></em></td>
+			<td align="right">3</td>
+			<td align="right">69</td>
+			<td align="right" id="wprawo">5</td>
+			<td align="right" id="wprawo">280</td>
+			<td align="right">0.02</td>
+			<td align="right">0.05</td>
+		</tr>
+		<tr height="19">
+			<td height="19" style="background-color: rgb(204, 204, 0);"><em><strong>9x18mm PM SP7 gzh</strong></em></td>
+			<td align="right">2</td>
+			<td align="right">77</td>
+			<td align="right" id="wprawo">5</td>
+			<td align="right" id="wprawo">420</td>
+			<td align="right">0.02</td>
+			<td align="right">0.05</td>
+		</tr>
+		<tr height="19">
+			<td height="19" style="background-color: rgb(204, 204, 0);"><em><strong>9x18mm PM SP8 gzh</strong></em></td>
+			<td align="right">1</td>
+			<td align="right">67</td>
+			<td align="right" id="wprawo">2</td>
+			<td align="right" id="wprawo">250</td>
+			<td align="right">0.02</td>
+			<td align="right">0.05</td>
+		</tr>
+		<tr>
+			<td height="19" style="background-color: rgb(204, 204, 0);"><strong>Compatible With</strong></td>
+			<td colspan="6" rowspan="1" style="text-align: center;">SMG: <strong>PP-91-01 &quot;Kedr-B&quot;</strong>, <strong>PP-91 &quot;Kedr&quot;</strong>, <strong>PP-9 &quot;Klin&quot;</strong><br />
+			Pistol: <strong>PM</strong>, <strong>PM (t)</strong>, <strong>PB</strong>, <strong>APB</strong>, <strong>APS</strong></td>
+		</tr>
+		<tr>
+			<td height="19" style="background-color: rgb(0, 204, 153);"><em><strong>5.7x28mm SS190</strong></em></td>
+			<td align="right">37</td>
+			<td align="right">49</td>
+			<td align="right" id="wprawo">43</td>
+			<td align="right" id="wprawo">716</td>
+			<td align="right">0.2</td>
+			<td align="right">0.6</td>
+		</tr>
+		<tr>
+			<td height="19" style="background-color: rgb(0, 204, 153);"><em><strong>5.7x28mm SB193</strong></em></td>
+			<td align="right">35</td>
+			<td align="right">54</td>
+			<td align="right" id="wprawo">37</td>
+			<td align="right" id="wprawo">305</td>
+			<td align="right">0.2</td>
+			<td align="right">0.3</td>
+		</tr>
+		<tr>
+			<td height="19" style="background-color: rgb(0, 204, 153);"><em><strong>5.7x28mm L191</strong></em></td>
+			<td align="right">33</td>
+			<td align="right">58</td>
+			<td align="right" id="wprawo">41</td>
+			<td align="right" id="wprawo">716</td>
+			<td align="right">0.2</td>
+			<td align="right">0.6</td>
+		</tr>
+		<tr>
+			<td height="19" style="background-color: rgb(0, 204, 153);"><em><strong>5.7x28mm SS197SR</strong></em></td>
+			<td align="right">20</td>
+			<td align="right">62</td>
+			<td align="right" id="wprawo">22</td>
+			<td align="right" id="wprawo">594</td>
+			<td align="right">0.5</td>
+			<td align="right">0.2</td>
+		</tr>
+		<tr>
+			<td height="19" style="background-color: rgb(0, 204, 153);"><em><strong>5.7x28mm R37.X</strong></em></td>
+			<td align="right">11</td>
+			<td align="right">81</td>
+			<td align="right" id="wprawo">14</td>
+			<td align="right" id="wprawo">724</td>
+			<td align="right">0.7</td>
+			<td align="right">0.1</td>
+		</tr>
+		<tr>
+			<td height="19" style="background-color: rgb(0, 204, 153);"><em><strong>5.7x28mm SS198LF</strong></em></td>
+			<td align="right">10</td>
+			<td align="right">74</td>
+			<td align="right" id="wprawo">15</td>
+			<td align="right" id="wprawo">792</td>
+			<td align="right">0.8</td>
+			<td align="right">0.2</td>
+		</tr>
+		<tr>
+			<td height="19" style="background-color: rgb(0, 204, 153);"><em><strong>5.7x28mm R37.F</strong></em></td>
+			<td align="right">8</td>
+			<td align="right">98</td>
+			<td align="right" id="wprawo">7</td>
+			<td align="right" id="wprawo">729</td>
+			<td align="right">1</td>
+			<td align="right">0.05</td>
+		</tr>
+		<tr>
+			<td height="19" style="background-color: rgb(0, 204, 153);"><strong>Compatible With</strong></td>
+			<td colspan="6" rowspan="1" style="text-align: center;">SMG: <strong>P90</strong><br />
+			Pistol: <strong>FN 5-7</strong></td>
+		</tr>
+		<tr height="19">
+			<td height="19" style="background-color: rgb(51, 153, 0);"><em><strong>7.62x39mm BP</strong></em></td>
+			<td align="right">47</td>
+			<td align="right">58</td>
+			<td align="right" id="wprawo">63</td>
+			<td align="right" id="wprawo">730</td>
+			<td align="right">0.12</td>
+			<td align="right">0.315</td>
+		</tr>
+		<tr>
+			<td height="19" style="background-color: rgb(51, 153, 0);"><em><strong>7.62x39mm PS</strong></em></td>
+			<td align="right">32</td>
+			<td align="right">57</td>
+			<td align="right" id="wprawo">52</td>
+			<td align="right" id="wprawo">700</td>
+			<td align="right">0.25</td>
+			<td align="right">0.35</td>
+		</tr>
+		<tr height="19">
+			<td height="19" style="background-color: rgb(51, 153, 0);"><em><strong>7.62x39mm T45M</strong></em></td>
+			<td align="right">30</td>
+			<td align="right">62</td>
+			<td align="right" id="wprawo">46</td>
+			<td align="right" id="wprawo">720</td>
+			<td align="right">0.12</td>
+			<td align="right">0.35</td>
+		</tr>
+		<tr height="19">
+			<td height="19" style="background-color: rgb(51, 153, 0);"><em><strong>7.62x39mm US</strong></em></td>
+			<td align="right">29</td>
+			<td align="right">56</td>
+			<td align="right" id="wprawo">42</td>
+			<td align="right" id="wprawo">300</td>
+			<td align="right">0.075</td>
+			<td align="right">0.358</td>
+		</tr>
+		<tr height="19">
+			<td height="19" style="background-color: rgb(51, 153, 0);"><em><strong>7.62x39mm HP</strong></em></td>
+			<td align="right">15</td>
+			<td align="right">87</td>
+			<td align="right" id="wprawo">35</td>
+			<td align="right" id="wprawo">754</td>
+			<td align="right">0.2625</td>
+			<td align="right">0.175</td>
+		</tr>
+		<tr>
+			<td height="19" style="background-color: rgb(51, 153, 0);"><strong>Compatible With</strong></td>
+			<td colspan="6" rowspan="1" style="text-align: center;">Assault Rifle: <strong>Vepr KM/VPO-136</strong>, <strong>AKMSN</strong>, <strong>AKMS</strong>, <strong>AKMN</strong>, <strong>AKM</strong>, <strong>AK-104</strong>, <strong>AK-103</strong><br />
+			Assault Carbine: <strong>OP-SKS</strong>, <strong>SKS</strong></td>
+		</tr>
+		<tr>
+			<td height="19" style="background-color: rgb(0, 153, 102);"><em><strong>7.62x51mm M993</strong></em></td>
+			<td align="right">70</td>
+			<td align="right">67</td>
+			<td align="right" id="wprawo">85</td>
+			<td align="right" id="wprawo">910</td>
+			<td align="right">0.13</td>
+			<td align="right">0.28</td>
+		</tr>
+		<tr height="19">
+			<td height="19" style="background-color: rgb(0, 153, 102);"><em><strong>7.62x51mm M61</strong></em></td>
+			<td align="right">68</td>
+			<td align="right">70</td>
+			<td align="right" id="wprawo">83</td>
+			<td align="right" id="wprawo">849</td>
+			<td align="right">0.13</td>
+			<td align="right">0.3</td>
+		</tr>
+		<tr height="19">
+			<td height="19" style="background-color: rgb(0, 153, 102);"><em><strong>7.62x51mm M62</strong></em></td>
+			<td align="right">54</td>
+			<td align="right">79</td>
+			<td align="right" id="wprawo">75</td>
+			<td align="right" id="wprawo">816</td>
+			<td align="right">0.14</td>
+			<td align="right">0.38</td>
+		</tr>
+		<tr height="19">
+			<td height="19" style="background-color: rgb(0, 153, 102);"><em><strong>7.62x51mm M80</strong></em></td>
+			<td align="right">41</td>
+			<td align="right">80</td>
+			<td align="right" id="wprawo">66 </td>
+			<td align="right" id="wprawo">833</td>
+			<td align="right">0.17</td>
+			<td align="right">0.38</td>
+		</tr>
+		<tr>
+			<td height="19" style="background-color: rgb(0, 153, 102);"><em><strong>7.62x51mm </strong></em><strong>TPZ SP</strong></td>
+			<td align="right">36</td>
+			<td align="right">60</td>
+			<td align="right" id="wprawo">40</td>
+			<td align="right" id="wprawo">808</td>
+			<td align="right">0.2</td>
+			<td align="right">0.5</td>
+		</tr>
+		<tr>
+			<td height="19" style="background-color: rgb(0, 153, 102);"><em><strong>7.62x51mm </strong></em>&nbsp;<strong>BPZ FMJ</strong></td>
+			<td align="right">31</td>
+			<td align="right">88</td>
+			<td align="right" id="wprawo">33</td>
+			<td align="right" id="wprawo">840</td>
+			<td align="right">0.25</td>
+			<td align="right">0.2</td>
+		</tr>
+		<tr>
+			<td height="19" style="background-color: rgb(0, 153, 102);"><em><strong>7.62x51mm </strong></em><strong>Ultra Nosler</strong></td>
+			<td align="right">15</td>
+			<td align="right">107</td>
+			<td align="right" id="wprawo">20 </td>
+			<td align="right" id="wprawo">822</td>
+			<td align="right">0.7</td>
+			<td align="right">0.2</td>
+		</tr>
+		<tr>
+			<td height="19" style="background-color: rgb(0, 153, 102);"><strong>Compatible With</strong></td>
+			<td colspan="6" rowspan="1" style="text-align: center;">Sniper Rifle: <strong>M700</strong>, <strong>DVL-10, Orsis T-5000</strong><br />
+			DMR: <strong>RSASS</strong>, <strong>M1A, SR-25</strong><br />
+			Assault Rifle: <strong>SA-58, DT MDR .308</strong><br />
+			Assault Carbine: <strong>Vepr Hunter/VPO-101</strong></td>
+		</tr>
+		<tr height="19">
+			<td height="19" style="background-color: rgb(51, 102, 102);"><em><strong>7.62x54mmR </strong></em><strong>7N37</strong></td>
+			<td align="right">70</td>
+			<td align="right">72</td>
+			<td align="right" id="wprawo">88</td>
+			<td align="right" id="wprawo">785</td>
+			<td align="right">0.083</td>
+			<td align="right">0.34</td>
+		</tr>
+		<tr height="19">
+			<td height="19" style="background-color: rgb(51, 102, 102);"><em><strong>7.62x54mmR SNB</strong></em></td>
+			<td align="right">62</td>
+			<td align="right">75</td>
+			<td align="right" id="wprawo">87</td>
+			<td align="right" id="wprawo">875</td>
+			<td align="right">0.08</td>
+			<td align="right">0.285</td>
+		</tr>
+		<tr>
+			<td height="19" style="background-color: rgb(51, 102, 102);"><em><strong>7.62x54mmR 7BT1</strong></em></td>
+			<td align="right">59</td>
+			<td align="right">78</td>
+			<td align="right" id="wprawo">87</td>
+			<td align="right" id="wprawo">820</td>
+			<td align="right">0.081</td>
+			<td align="right">0.265</td>
+		</tr>
+		<tr>
+			<td height="19" style="background-color: rgb(51, 102, 102);"><em><strong>7.62x54mmR 7N1 Sniper</strong></em></td>
+			<td align="right">45</td>
+			<td align="right">86</td>
+			<td align="right" id="wprawo">84</td>
+			<td align="right" id="wprawo">875</td>
+			<td align="right">0.083</td>
+			<td align="right">0.285</td>
+		</tr>
+		<tr>
+			<td height="19" style="background-color: rgb(51, 102, 102);"><em><strong>7.62x54mmR LPS Gzh</strong></em></td>
+			<td align="right">42</td>
+			<td align="right">81</td>
+			<td align="right" id="wprawo">78</td>
+			<td align="right" id="wprawo">865</td>
+			<td align="right">0.18</td>
+			<td align="right">0.39</td>
+		</tr>
+		<tr>
+			<td height="19" style="background-color: rgb(51, 102, 102);"><em><strong>7.62x54mmR </strong></em><strong>T-46M</strong></td>
+			<td align="right">41</td>
+			<td align="right">82</td>
+			<td align="right" id="wprawo">83</td>
+			<td align="right" id="wprawo">800</td>
+			<td align="right">0.18</td>
+			<td align="right">0.3</td>
+		</tr>
+		<tr>
+			<td height="19" style="background-color: rgb(51, 102, 102);"><strong>Compatible With</strong></td>
+			<td colspan="6" rowspan="1" style="text-align: center;">Sniper Rifle: <strong>SV-98</strong>, <strong>Mosin Inf.</strong>, <strong>Mosin, SV-98</strong><br />
+			DMR: <strong>SVDS</strong></td>
+		</tr>
+		<tr height="19">
+			<td height="19" style="background-color: rgb(0, 255, 255);"><em><strong>7.62x25mm TT Pst gzh</strong></em></td>
+			<td align="right">24</td>
+			<td align="right">50</td>
+			<td align="right" id="wprawo">36</td>
+			<td align="right" id="wprawo">430</td>
+			<td align="right">0.2</td>
+			<td align="right">0.1</td>
+		</tr>
+		<tr height="19">
+			<td height="19" style="background-color: rgb(0, 255, 255);"><em><strong>7.62x25mm TT PT gzh</strong></em></td>
+			<td align="right">12</td>
+			<td align="right">60</td>
+			<td align="right" id="wprawo">34</td>
+			<td align="right" id="wprawo">415</td>
+			<td align="right">0.166</td>
+			<td align="right">0.1</td>
+		</tr>
+		<tr>
+			<td height="19" style="background-color: rgb(0, 255, 255);"><em><strong>7.62x25mm TT P gl</strong></em></td>
+			<td align="right">10</td>
+			<td align="right">58</td>
+			<td align="right" id="wprawo">32</td>
+			<td align="right" id="wprawo">430</td>
+			<td align="right">0.25</td>
+			<td align="right">0.065</td>
+		</tr>
+		<tr height="19">
+			<td height="19" style="background-color: rgb(0, 255, 255);"><em><strong>7.62x25mm TT AKBS</strong></em></td>
+			<td align="right">9</td>
+			<td align="right">58</td>
+			<td align="right" id="wprawo">32</td>
+			<td align="right" id="wprawo">425</td>
+			<td align="right">0.25</td>
+			<td align="right">0.065</td>
+		</tr>
+		<tr>
+			<td height="19" style="background-color: rgb(0, 255, 255);"><em><strong>7.62x25mm TT FMJ43</strong></em></td>
+			<td align="right">8</td>
+			<td align="right">60</td>
+			<td align="right" id="wprawo">29</td>
+			<td align="right" id="wprawo">427</td>
+			<td align="right">0.25</td>
+			<td align="right">0.065</td>
+		</tr>
+		<tr>
+			<td height="19" style="background-color: rgb(0, 255, 255);"><em><strong>7.62x25mm TT LRN</strong></em></td>
+			<td align="right">6</td>
+			<td align="right">64</td>
+			<td align="right" id="wprawo">28</td>
+			<td align="right" id="wprawo">375</td>
+			<td align="right">0.35</td>
+			<td align="right">0.05</td>
+		</tr>
+		<tr>
+			<td height="19" style="background-color: rgb(0, 255, 255);"><em><strong>7.62x25mm TT LRNPC</strong></em></td>
+			<td align="right">5</td>
+			<td align="right">66</td>
+			<td align="right" id="wprawo">27</td>
+			<td align="right" id="wprawo">385</td>
+			<td align="right">0.35</td>
+			<td align="right">0.05</td>
+		</tr>
+		<tr>
+			<td height="19" style="background-color: rgb(0, 255, 255);"><strong>Compatible With</strong></td>
+			<td colspan="6" rowspan="1" style="text-align: center;">Pistol: <strong>TT (gold)</strong>, <strong>TT</strong><br />
+			Submachine Gun:<strong> PPSH-41</strong></td>
+		</tr>
+		<tr height="19">
+			<td height="19" style="background-color: rgb(153, 255, 0);"><em><strong>5.56x45mm M995</strong></em></td>
+			<td align="right">53</td>
+			<td align="right">40</td>
+			<td align="right" id="wprawo">58</td>
+			<td align="right" id="wprawo">1013</td>
+			<td align="right">0.32</td>
+			<td align="right">0.36</td>
+		</tr>
+		<tr>
+			<td height="19" style="background-color: rgb(153, 255, 0);"><em><strong>5.56x45mm M855A1</strong></em></td>
+			<td align="right">43</td>
+			<td align="right">45</td>
+			<td align="right" id="wprawo">52</td>
+			<td align="right" id="wprawo">945</td>
+			<td align="right">0.34</td>
+			<td align="right">0.38</td>
+		</tr>
+		<tr>
+			<td height="19" style="background-color: rgb(153, 255, 0);"><em><strong>5.56x45mm M856A1</strong></em></td>
+			<td align="right">37</td>
+			<td align="right">51</td>
+			<td align="right" id="wprawo">52</td>
+			<td align="right" id="wprawo">940</td>
+			<td align="right">0.328</td>
+			<td align="right">0.38</td>
+		</tr>
+		<tr>
+			<td height="19" style="background-color: rgb(153, 255, 0);"><em><strong>5.56x45mm M855</strong></em></td>
+			<td align="right">30</td>
+			<td align="right">50</td>
+			<td align="right" id="wprawo">37</td>
+			<td align="right" id="wprawo">922</td>
+			<td align="right">0.4</td>
+			<td align="right">0.4</td>
+		</tr>
+		<tr>
+			<td height="19" style="background-color: rgb(153, 255, 0);"><em><strong>5.56x45mm 55 FMJ</strong></em></td>
+			<td align="right">24</td>
+			<td align="right">52</td>
+			<td align="right" id="wprawo">33</td>
+			<td align="right" id="wprawo">957</td>
+			<td align="right">0.5</td>
+			<td align="right">0.26</td>
+		</tr>
+		<tr>
+			<td height="19" style="background-color: rgb(153, 255, 0);"><em><strong>5.56x45mm M856</strong></em></td>
+			<td align="right">23</td>
+			<td align="right">55</td>
+			<td align="right" id="wprawo">54</td>
+			<td align="right" id="wprawo">874</td>
+			<td align="right">0.328</td>
+			<td align="right">0.38</td>
+		</tr>
+		<tr height="19">
+			<td height="19" style="background-color: rgb(153, 255, 0);"><em><strong>5.56x45mm MK 255 Mod 0</strong></em></td>
+			<td align="right">17</td>
+			<td align="right">60</td>
+			<td align="right" id="wprawo">32</td>
+			<td align="right" id="wprawo">936</td>
+			<td align="right">0.03</td>
+			<td align="right">0.1</td>
+		</tr>
+		<tr>
+			<td height="19" style="background-color: rgb(153, 255, 0);"><em><strong>5.56x45mm 55 HP</strong></em></td>
+			<td align="right">9</td>
+			<td align="right">72</td>
+			<td align="right" id="wprawo">22</td>
+			<td align="right" id="wprawo">947</td>
+			<td align="right">0.7</td>
+			<td align="right">0.2</td>
+		</tr>
+		<tr height="19">
+			<td height="19" style="background-color: rgb(153, 255, 0);"><em><strong>5.56x45mm Warmage</strong></em></td>
+			<td align="right">3</td>
+			<td align="right">85</td>
+			<td align="right" id="wprawo">14</td>
+			<td align="right" id="wprawo">910</td>
+			<td align="right">0.9</td>
+			<td align="right">0.05</td>
+		</tr>
+		<tr>
+			<td height="19" style="background-color: rgb(153, 255, 0);"><strong>Compatible With</strong></td>
+			<td colspan="6" rowspan="1" style="text-align: center;">Assault Rifles: <strong>M4A1</strong>, <strong>HK 416A5</strong>, <strong>DT MDR</strong>, <strong>AK-102</strong>, <strong>AK-101</strong>, <strong>ADAR 2-15, TX-15 DML</strong></td>
+		</tr>
+		<tr height="19">
+			<td height="19" style="background-color: rgb(102, 204, 153);"><em><strong>5.45x39mm 7N39 &quot;Igolnik&quot;</strong></em></td>
+			<td align="right">62</td>
+			<td align="right">37</td>
+			<td align="right" id="wprawo">60</td>
+			<td align="right" id="wprawo">905</td>
+			<td align="right">0.02</td>
+			<td align="right">0.38</td>
+		</tr>
+		<tr>
+			<td height="19" style="background-color: rgb(102, 204, 153);"><em><strong>5.45x39mm BS</strong></em></td>
+			<td align="right">51</td>
+			<td align="right">40</td>
+			<td align="right" id="wprawo">57</td>
+			<td align="right" id="wprawo">830</td>
+			<td align="right">0.17</td>
+			<td align="right">0.38</td>
+		</tr>
+		<tr>
+			<td height="19" style="background-color: rgb(102, 204, 153);"><em><strong>5.45x39mm BT</strong></em></td>
+			<td align="right">37</td>
+			<td align="right">44</td>
+			<td align="right" id="wprawo">49</td>
+			<td align="right" id="wprawo">880</td>
+			<td align="right">0.164</td>
+			<td align="right">0.37</td>
+		</tr>
+		<tr height="19">
+			<td height="19" style="background-color: rgb(102, 204, 153);"><em><strong>5.45x39mm BP</strong></em></td>
+			<td align="right">32</td>
+			<td align="right">48</td>
+			<td align="right" id="wprawo">41</td>
+			<td align="right" id="wprawo">890</td>
+			<td align="right">0.16</td>
+			<td align="right">0.36</td>
+		</tr>
+		<tr>
+			<td height="19" style="background-color: rgb(102, 204, 153);"><em><strong>5.45x39mm PP</strong></em></td>
+			<td align="right">30</td>
+			<td align="right">46</td>
+			<td align="right" id="wprawo">32</td>
+			<td align="right" id="wprawo">890</td>
+			<td align="right">0.17</td>
+			<td align="right">0.38</td>
+		</tr>
+		<tr>
+			<td height="19" style="background-color: rgb(102, 204, 153);"><em><strong>5.45x39mm PS</strong></em></td>
+			<td align="right">25</td>
+			<td align="right">50</td>
+			<td align="right" id="wprawo">35</td>
+			<td align="right" id="wprawo">890</td>
+			<td align="right">0.4</td>
+			<td align="right">0.4</td>
+		</tr>
+		<tr>
+			<td height="19" style="background-color: rgb(102, 204, 153);"><em><strong>5.45x39mm T</strong></em></td>
+			<td align="right">20</td>
+			<td align="right">57</td>
+			<td align="right" id="wprawo">38</td>
+			<td align="right" id="wprawo">883</td>
+			<td align="right">0.16</td>
+			<td align="right">0.4</td>
+		</tr>
+		<tr height="19">
+			<td height="19" style="background-color: rgb(102, 204, 153);"><em><strong>5.45x39mm FMJ</strong></em></td>
+			<td align="right">20</td>
+			<td align="right">54</td>
+			<td align="right" id="wprawo">30</td>
+			<td align="right" id="wprawo">884</td>
+			<td align="right">0.25</td>
+			<td align="right">0.26</td>
+		</tr>
+		<tr>
+			<td height="19" style="background-color: rgb(102, 204, 153);"><em><strong>5.45x39mm US</strong></em></td>
+			<td align="right">15</td>
+			<td align="right">65</td>
+			<td align="right" id="wprawo">34</td>
+			<td align="right" id="wprawo">303</td>
+			<td align="right">0.1</td>
+			<td align="right">0.4</td>
+		</tr>
+		<tr>
+			<td height="19" style="background-color: rgb(102, 204, 153);"><em><strong>5.45x39mm PRS</strong></em></td>
+			<td align="right">14</td>
+			<td align="right">60</td>
+			<td align="right" id="wprawo">28</td>
+			<td align="right" id="wprawo">890</td>
+			<td align="right">0.3</td>
+			<td align="right">0.04</td>
+		</tr>
+		<tr height="19">
+			<td height="19" style="background-color: rgb(102, 204, 153);"><em><strong>5.45x39mm HP</strong></em></td>
+			<td align="right">11</td>
+			<td align="right">74</td>
+			<td align="right" id="wprawo">20</td>
+			<td align="right" id="wprawo">884</td>
+			<td align="right">0.35</td>
+			<td align="right">0.2</td>
+		</tr>
+		<tr height="19">
+			<td height="19" style="background-color: rgb(102, 204, 153);"><em><strong>5.45x39mm SP</strong></em></td>
+			<td align="right">11</td>
+			<td align="right">68</td>
+			<td align="right" id="wprawo">34</td>
+			<td align="right" id="wprawo">873</td>
+			<td align="right">0.45</td>
+			<td align="right">0.15</td>
+		</tr>
+		<tr>
+			<td height="19" style="background-color: rgb(102, 204, 153);"><strong>Compatible With</strong></td>
+			<td colspan="6" rowspan="1" style="text-align: center;">Light Machine Gun: <strong>RPK-16</strong><br />
+			Assault Rifle:<strong> AKS-74UN</strong>, <strong>AKS-74UB</strong>, <strong>AKS-74U</strong>, <strong>AKS-74N</strong>, <strong>AKS-74</strong>, <strong>AK-74N</strong>, <strong>AK-74M</strong>, <strong>AK-74</strong>, <strong>AK-105</strong></td>
+		</tr>
+		<tr>
+			<td height="19" style="background-color: rgb(0, 153, 204);"><em><strong>12.7x55mm PS12B</strong></em></td>
+			<td style="text-align: center;" id="lek">46</td>
+			<td style="text-align: center;" id="wprawo">102</td>
+			<td style="text-align: center;"  class="bardz">57</td>
+			<td style="text-align: center;"  class="bardz">300</td>
+			<td style="text-align: center;" id="wprawo">0.2</td>
+			<td style="text-align: center;">0.65</td>
+		</tr>
+		<tr>
+			<td height="19" style="background-color: rgb(0, 153, 204);"><em><strong>12.7x55mm PS12</strong></em></td>
+			<td style="text-align: center;" id="lek">28</td>
+			<td style="text-align: center;" id="wprawo">115</td>
+			<td style="text-align: center;"  class="bardz">60</td>
+			<td style="text-align: center;"  class="bardz">285</td>
+			<td style="text-align: center;" id="wprawo">0.3</td>
+			<td style="text-align: center;">0.4</td>
+		</tr>
+		<tr>
+			<td height="19" style="background-color: rgb(0, 153, 204);"><em><strong>12.7x55mm PS12A</strong></em></td>
+			<td style="text-align: center;" id="lek">10</td>
+			<td style="text-align: center;" id="wprawo">165</td>
+			<td style="text-align: center;"  class="bardz">22</td>
+			<td style="text-align: center;"  class="bardz">290</td>
+			<td style="text-align: center;" id="wprawo">0.7</td>
+			<td style="text-align: center;">0.2</td>
+		</tr>
+		<tr>
+			<td height="19" style="background-color: rgb(0, 153, 204);"><strong>Compatible With</strong></td>
+			<td colspan="6" rowspan="1" style="text-align: center;">Assault Rifle: <strong>ASh-12</strong></td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+
+<p style="text-align: center;"><u><strong>EfT Ammo by Caliber</strong></u></p>
+
+<p style="text-align: justify;">The following graphs show the Penetration Power and Damage Value of all cartridges of each caliber.&nbsp;</p>
+
+<p style="text-align: justify;"><em><strong>Note1:</strong></em> In order to show the best ammo choices more clearly, we have decided to choose Penetration Power stat as our segregation criterium for all graphs.&nbsp;</p>
+
+<p style="text-align: justify;"><em><strong>Note2:&nbsp;</strong></em>We have decided to show&nbsp;12x70mm Shotgun Shots and Slugs on a single graph for clarity reasons, they are the same caliber after all (20x70mm Shotgun ammo was treated likewise).&nbsp;</p>
+
+<table align="center" border="1" cellpadding="1" cellspacing="1" style="max-width:900px;width:100%;">
+	<tbody>
+		<tr>
+			<td style="text-align: center;">
+			<p><strong>4.6x30mm</strong><em><strong> </strong></em><strong> Ammo</strong></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="text-align: justify;">Ammunition for the MP7 SMG. Unlike other ammo types for Submachine Guns, some types of the 4.6x30mm cartridges can actually go through high tier Armor with ease. If you choose the 4.6x30mm AP SX ammunition, your MP7 will be able to demolish even the most heavily armored targets in close quarters combat.&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+
+<table align="center" border="1" cellpadding="1" cellspacing="1" style="max-width:900px;width:100%;">
+	<tbody>
+		<tr>
+			<td style="text-align: center;">
+			<p><strong>.366 TKM </strong><strong>Ammo</strong></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="text-align: justify;">Ammunition for the&nbsp;Vepr AKM/VPO-209 Rifle and VPO-215 Sniper. If you go for the strongest ammo of this type, the .366 TKM AP, you will be able to put up a fight against opponents wearing up to Tier 5 Armor (at rather close ranges, however, because of the .366 TKM AP&#39;s increased recoil and decreased accuracy).&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+
+<table align="center" border="1" cellpadding="1" cellspacing="1" style="max-width:900px;width:100%;">
+	<tbody>
+		<tr>
+			<td style="text-align: center;">
+			<p><strong>.45 ACP&nbsp;</strong><strong>Ammo</strong></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="text-align: justify;">Legendary ammunition used by well-known-and-loved weapons, including Colt 1911 Pistol, H&amp;K UMP SMG (likely to find its way to Tarkov soon), Thompson Submachine Gun (movie star among firearms) and the Kriss Vector (one of the most advanced Submachine Guns available to the general public - we would love to see it in the game). Strongest ammo of this type, .45 ACP AP will go through Tier 4 Armor and weaker without too much of a problem.&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+
+<table align="center" border="1" cellpadding="1" cellspacing="1" style="max-width:900px;width:100%;">
+	<tbody>
+		<tr>
+			<td style="text-align: center;">
+			<p><strong>12x70 Shotgun Ammo</strong><br />
+			</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="text-align: justify;">Ammunition type compatible with all twelve-gauge shotguns. If you want to have any hope of penetrating armor, use Slugs (12x70 AP Slugs are the best), or Flechette Shot that pierces through armor rather nicely at short ranges; Also, please remember that Damage Values for Shots pertain to a single pellet (to check the number of pellets, please refer to the table above - we have also added the information about this to the graph for easier read).&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+
+<table align="center" border="1" cellpadding="1" cellspacing="1" style="max-width:900px;width:100%;">
+	<tbody>
+		<tr>
+			<td style="text-align: center;">
+			<p><strong>20x70 Shotgun Ammo</strong><br />
+			</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="text-align: justify;">Ammunition type compatible with all twenty-gauge shotguns. If you want to have any hope of penetrating armor, use Slugs (20x70 &quot;Poleva-6u&quot; Slugs and 20x70 Star Slugs are the best, but that&#39;s not saying much); Also, please remember that Damage Values for Shots pertain to a single pellet (to check the number of pellets, please refer to the table above - we have also added the information about this to the graph for easier read).&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+
+<table align="center" border="1" cellpadding="1" cellspacing="1" style="max-width:900px;width:100%;">
+	<tbody>
+		<tr>
+			<td style="text-align: center;">
+			<p><strong>9x39mm</strong><em><strong> </strong></em><strong> Ammo</strong><br />
+		</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="text-align: justify;">Subsonic Ammunition for the legendary VSS Vintorez and the AS VAL, designed for Russian Spec-Ops forces. Every type of this ammo is effective against up to Class 4 Armor, and the 9x39mm 7N12 BP will penetrate even the Class 6 Armor without too much of a problem. If you go for VAL or the VSS, be aware that the bullet drop off over distance is massive for these weapons, because of the low initial bullet velocity.&nbsp;</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+
+<table align="center" border="1" cellpadding="1" cellspacing="1" style="max-width:900px;width:100%;">
+	<tbody>
+		<tr>
+			<td style="text-align: center;">
+			<p><strong>9x21mm </strong><strong> Ammo</strong><br />
+		</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="text-align: justify;">Powerful pistol projectiles used exclusively in the&nbsp;SR-1MP Gryurza. SP 10 variant will penetrate Class 3 Armor very easily and SP 13 will go through Class 4, but anything stronger will prove to be a problem.&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+
+<table align="center" border="1" cellpadding="1" cellspacing="1" style="max-width:900px;width:100%;">
+	<tbody>
+		<tr>
+			<td style="text-align: center;">
+			<p><strong>9x19mm </strong><strong> Ammo</strong><br />
+</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="text-align: justify;">Quite common pistol/machine pistol ammunition. If you are going for a gun that fires these, you should try to get your hands on, at least, the 9x19 AP 6.3 ammo, as it can penetrate Class 3 Armor reliably. If you have access to it, the new&nbsp;9x19 7N31 ammo will be the best choice as it can pierce Class 4 Armor after just a few shots.&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+
+<table align="center" border="1" cellpadding="1" cellspacing="1" style="max-width:900px;width:100%;">
+	<tbody>
+		<tr>
+			<td style="text-align: center;">
+			<p><strong>9x18mm Ammo</strong><br />
+			</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="text-align: justify;">This pistol/machine pistol ammunition is generally one of the weakest available in the game and you should avoid any weapon that fires it like, well... fire (in the late game, of course; SMGs that use 9x18 are extremely powerful early in the wipe and when used for &quot;leg meta&quot; tactics&quot;). The notable exceptions are PM PMM and PM PBM rounds that will penetrate Class 3 Armor; If you have to use a 9x18 Caliber weapon, load it with one of these two if you want to stand a chance of winning against a medium-armored opposition.&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+
+<table align="center" border="1" cellpadding="1" cellspacing="1" style="max-width:900px;width:100%;">
+	<tbody>
+		<tr>
+			<td style="text-align: center;">
+			<p><strong>5.7x28mm Ammo</strong><br />
+			</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="text-align: justify;">Ammunition Compatible with well-known and respected FN 5-7 Pistol and P90 SMG. High-end projectiles of this caliber (SB193, L191, and SS190) will go through armor with relative ease, which makes FN 5-7 the best Sniper sidearm in the game (close-quarters combat with Snipers is even more dangerous now).&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+
+<table align="center" border="1" cellpadding="1" cellspacing="1" style="max-width:900px;width:100%;">
+	<tbody>
+		<tr>
+			<td style="text-align: center;">
+			<p><strong>7.62x39mm Ammo</strong><br />
+		</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="text-align: justify;">Ammunition used in the SKS and AKM series of Rifles. If you want to be able to penetrate any Armor reliably, go for the 7.62x39 BP, but please be aware that 7.62x39mm PS can get the job done too.&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+
+<table align="center" border="1" cellpadding="1" cellspacing="1" style="max-width:900px;width:100%;">
+	<tbody>
+		<tr>
+			<td style="text-align: center;">
+			<p><strong>7.62x51mm</strong><em><strong> </strong></em><strong> Ammo</strong><br />
+			</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="text-align: justify;">Very powerful cartridges used in Sniper Rifles, Designated Marksman Rifles, and some of the deadliest Assault Rifles available in Tarkov. Ammunition of this caliber is very expensive, but with the high price comes very high effectiveness. If you are looking for ammo that can go through armor like through butter and do massive damage, look no further, the 7.62x51mm M61 (and the new&nbsp;7.62x51mm M993, which is even better) has got you covered.&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+
+<table align="center" border="1" cellpadding="1" cellspacing="1" style="max-width:900px;width:100%;">
+	<tbody>
+		<tr>
+			<td style="text-align: center;">
+			<p><strong>7.62x54mmR </strong><strong> Ammo</strong><br />
+			</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="text-align: justify;">Ammunition used for the SVDS Designated Marksman Rifle, and the Mosin rifle family. All bullets of this type have high muzzle velocity and are effective against armor. If you want to be 100% sure that you will penetrate any target with the first shot, go for the 7.62x54mmR 7N37, however, even the 7BT1 will do just as fine. If you want to score 1-shot Torso eliminations, pick the&nbsp;7.62x54mmR Sniper (Tier 4 and even 5 Armor can&#39;t stop it reliably).&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+
+<table align="center" border="1" cellpadding="1" cellspacing="1" style="max-width:900px;width:100%;">
+	<tbody>
+		<tr>
+			<td style="text-align: center;">
+			<p><strong>7.62x25mm Ammo</strong><br />
+			</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="text-align: justify;">Ammunition used exclusively for the TT pistol. Its Armor Penetration values are rather poor and you should avoid using the TT, even if you have access to 7.62x25mm TT Pst gzh, which, although the best available, can&#39;t penetrate anything better than the Class 2 Armor.&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+
+<table align="center" border="1" cellpadding="1" cellspacing="1" style="max-width:900px;width:100%;">
+	<tbody>
+		<tr>
+			<td style="text-align: center;">
+			<p><strong>5.56x45mm </strong><strong> Ammo</strong><br />
+			</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="text-align: justify;">Ammunition used, among others, in the very popular M4A1 Rifle. As you can see from the graph, the 5.56x45mm M995 ammo is unmatched when it comes to AP capabilities, but it lacks a bit in the Damage department, so the less powerful M856A1 or M855A1 can be good alternatives, as they can penetrate respectively Class 4&nbsp; and Class 5 Armor rather easily.&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+
+<table align="center" border="1" cellpadding="1" cellspacing="1" style="max-width:900px;width:100%;">
+	<tbody>
+		<tr>
+			<td style="text-align: center;">
+			<p><strong>5.45x39mm</strong><em><strong> </strong></em><strong> Ammo</strong><br />
+			</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="text-align: justify;">Ammunition for the AK-74 Rifle family, less powerful projectiles of this caliber are very cheap and easy to come by, but you should go for the 5.45x39 BT or better. There is no Armor currently available in the game that can stop the 5.45x39mm 7N39 bullet, but cheaper and less rare 5.45x39 BS is almost as effective.&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+
+<table align="center" border="1" cellpadding="1" cellspacing="1" style="max-width:900px;width:100%;">
+	<tbody>
+		<tr>
+			<td style="text-align: center;">
+			<p><strong>12.7x55mm Ammo</strong><br />
+			</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="text-align: justify;">Ammunition for the ASh-12 Assault Rifle (our hopes were shattered when it turned out that it is not the OTs-14 Groza... but they will add this beauty soon, right?... Right?!) designed for Urban Operations. Rounds of this Caliber are devastating, especially at short ranges; even a single bullet can easily drop you dead. For the best Armor Piercing potential, use the PS12B Round.&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+</body>
+</html>
